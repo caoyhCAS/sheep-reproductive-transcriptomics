@@ -100,7 +100,8 @@ output_paths <- function(output) c(output, paste0(output, ".provenance.tsv"), pa
 
 check_output_paths <- function(output) {
   paths <- output_paths(output)
-  exists <- vapply(paths, function(path) file.exists(path) || isTRUE(nzchar(Sys.readlink(path))), logical(1))
+  # Unix returns NA for absent paths; preserve NA so isTRUE treats them as absent.
+  exists <- vapply(paths, function(path) file.exists(path) || isTRUE(nzchar(Sys.readlink(path), keepNA = TRUE)), logical(1))
   if (any(exists)) abort(paste("Refusing to overwrite:", paste(paths[exists], collapse = ", ")))
 }
 

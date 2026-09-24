@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: 'This repository is a method reconstruction, not author-original code. Cite the original study and the specific reconstruction commit.'
 title: 'Sheep reproductive transcriptomics: method reconstruction'
 type: software
+repository-code: 'https://github.com/caoyhCAS/sheep-reproductive-transcriptomics'
 version: 0.1.0
 date-released: '2026-09-24'
 license: MIT

@@ -22,10 +22,15 @@ configured for Python 3.11 and base R 4.4.3 so the R input-contract tests can ru
 there. This base R installation is for validation only; it is not the paper's
 historical statistical environment.
 
-Remote upload and GitHub CI have **not yet run** for this source package.
-The target repository must exist before the connected uploader can publish it.
-After publication, the commit's actual Actions result is authoritative; this
-file records the pre-publication local validation state.
+The source is published at
+[caoyhCAS/sheep-reproductive-transcriptomics](https://github.com/caoyhCAS/sheep-reproductive-transcriptomics).
+The local counts above record pre-publication validation. The hosted workflow
+also executes the 16 base-R input-contract tests. Consult the relevant commit's
+[GitHub Actions result](https://github.com/caoyhCAS/sheep-reproductive-transcriptomics/actions/workflows/ci.yml)
+for its actual pass/fail counts; a configured test is not itself a passing test.
+Deployment review corrected the R output-path guard to preserve `NA` from
+`Sys.readlink` for nonexistent files, preventing fresh output paths from being
+incorrectly rejected while keeping existing-file/symlink protection.
 
 No TopHat/Cufflinks/Trinity/RSEM/miRDeep2 biological computation, edgeR or DESeq
 model fitting, TargetScan prediction, or historical database enrichment has

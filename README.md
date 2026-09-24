@@ -2,6 +2,9 @@
 
 **方法重建版，非原始代码 / Method reconstruction, not original author code.**
 
+[代码仓库](https://github.com/caoyhCAS/sheep-reproductive-transcriptomics) ·
+[CI 运行结果](https://github.com/caoyhCAS/sheep-reproductive-transcriptomics/actions/workflows/ci.yml)
+
 本项目依据 Yang et al. 的正文、补充流程图和公开测序记录重建分析步骤：
 
 > Comparative mRNA and miRNA expression in European mouflon (Ovis musimon)
