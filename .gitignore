@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+results/
+work/
+data/
+references/
+resources/
+*.fastq*
+*.fq*
+*.bam
+*.sam
+*.bt2
+*.ebwt
+*.RData
+*.Rhistory

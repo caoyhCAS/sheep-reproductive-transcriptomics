@@ -1,0 +1,17 @@
+sample_id	species	tissue	individual_id	tissue_replicate	mrna_r1	mrna_r2	mirna_fastq
+F1-O	Finnsheep	ovary	F1	single	data/mrna/F1-O_R1.fastq.gz	data/mrna/F1-O_R2.fastq.gz	data/mirna/F1-O.fastq.gz
+F2-O	Finnsheep	ovary	F2	single	data/mrna/F2-O_R1.fastq.gz	data/mrna/F2-O_R2.fastq.gz	data/mirna/F2-O.fastq.gz
+F3-O	Finnsheep	ovary	F3	single	data/mrna/F3-O_R1.fastq.gz	data/mrna/F3-O_R2.fastq.gz	data/mirna/F3-O.fastq.gz
+F4-O	Finnsheep	ovary	F4	single	data/mrna/F4-O_R1.fastq.gz	data/mrna/F4-O_R2.fastq.gz	data/mirna/F4-O.fastq.gz
+F5-O	Finnsheep	ovary	F5	single	data/mrna/F5-O_R1.fastq.gz	data/mrna/F5-O_R2.fastq.gz	data/mirna/F5-O.fastq.gz
+F6-O	Finnsheep	ovary	F6	single	data/mrna/F6-O_R1.fastq.gz	data/mrna/F6-O_R2.fastq.gz	data/mirna/F6-O.fastq.gz
+F2-E	Finnsheep	endometrium	F2	single	data/mrna/F2-E_R1.fastq.gz	data/mrna/F2-E_R2.fastq.gz	data/mirna/F2-E.fastq.gz
+F3-E	Finnsheep	endometrium	F3	single	data/mrna/F3-E_R1.fastq.gz	data/mrna/F3-E_R2.fastq.gz	data/mirna/F3-E.fastq.gz
+M1-OA	European_mouflon	ovary	M1	A	data/mrna/M1-OA_R1.fastq.gz	data/mrna/M1-OA_R2.fastq.gz	data/mirna/M1-OA.fastq.gz
+M1-OB	European_mouflon	ovary	M1	B	data/mrna/M1-OB_R1.fastq.gz	data/mrna/M1-OB_R2.fastq.gz	data/mirna/M1-OB.fastq.gz
+M2-OA	European_mouflon	ovary	M2	A	data/mrna/M2-OA_R1.fastq.gz	data/mrna/M2-OA_R2.fastq.gz	data/mirna/M2-OA.fastq.gz
+M2-OB	European_mouflon	ovary	M2	B	data/mrna/M2-OB_R1.fastq.gz	data/mrna/M2-OB_R2.fastq.gz	data/mirna/M2-OB.fastq.gz
+M3-OA	European_mouflon	ovary	M3	A	data/mrna/M3-OA_R1.fastq.gz	data/mrna/M3-OA_R2.fastq.gz	data/mirna/M3-OA.fastq.gz
+M3-OB	European_mouflon	ovary	M3	B	data/mrna/M3-OB_R1.fastq.gz	data/mrna/M3-OB_R2.fastq.gz	data/mirna/M3-OB.fastq.gz
+M2-EA	European_mouflon	endometrium	M2	A	data/mrna/M2-EA_R1.fastq.gz	data/mrna/M2-EA_R2.fastq.gz	.
+M2-EB	European_mouflon	endometrium	M2	B	data/mrna/M2-EB_R1.fastq.gz	data/mrna/M2-EB_R2.fastq.gz	data/mirna/M2-EB.fastq.gz

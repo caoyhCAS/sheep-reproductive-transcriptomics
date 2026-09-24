@@ -1,0 +1,43 @@
+{
+  "paper_doi": "10.1038/s41437-018-0090-1",
+  "output_dir": "results/legacy_run",
+  "threads": 4,
+  "reference": {
+    "genome_fasta": "resources/Oar_v4.0.fa",
+    "genome_assembly": "Oar_v4.0",
+    "annotation_gtf": "resources/consistent_annotation.gtf",
+    "annotation_assembly": null,
+    "annotation_release_reported": "Ensembl 83",
+    "resolution_note": null,
+    "bowtie2_index_prefix": "resources/index/Oar_v4.0",
+    "bowtie2_index_files": ["resources/index/Oar_v4.0.1.bt2", "resources/index/Oar_v4.0.2.bt2", "resources/index/Oar_v4.0.3.bt2", "resources/index/Oar_v4.0.4.bt2", "resources/index/Oar_v4.0.rev.1.bt2", "resources/index/Oar_v4.0.rev.2.bt2"]
+  },
+  "mrna": {"adapter_r1": null, "adapter_r2": null, "adapter_resolution_note": null, "library_type": null, "cufflinks_annotation_mode": null},
+  "cuffdiff": {"transcriptome_policy": null, "resolution_note": null, "contrast_gtfs": {}},
+  "trinity": {"strand": null, "max_memory": "32G"},
+  "rsem": {"trinity_fasta": "results/legacy_run/denovo/trinity/Trinity.fasta", "aligner": null, "strandedness": null, "resolution_note": null},
+  "mirna": {"adapter": null, "adapter_resolution_note": null},
+  "acknowledgments": {
+    "method_reconstruction": false,
+    "legacy_environment": false,
+    "defaults_unreported": false,
+    "reference_annotation_conflict": false,
+    "pseudoreplication": false,
+    "merged_gtf_ambiguity": false,
+    "rsem_unreported_settings": false,
+    "mirna_alignment_conflict": false
+  },
+  "tools": {
+    "fastqc": {"command": ["fastqc"], "version_command": ["fastqc", "--version"], "expected_version": "0.11.4"},
+    "cutadapt": {"command": ["cutadapt"], "version_command": ["cutadapt", "--version"], "expected_version": "1.9.1"},
+    "tophat": {"command": ["tophat"], "version_command": ["tophat", "--version"], "expected_version": "2.0.8b"},
+    "cufflinks": {"command": ["cufflinks"], "version_command": ["cufflinks", "--version"], "expected_version": "2.1.1"},
+    "cuffmerge": {"command": ["cuffmerge"], "version_command": ["cufflinks", "--version"], "expected_version": "2.1.1", "self_version_command": ["cuffmerge", "--version"], "self_expected_version": "1.0.0"},
+    "cuffdiff": {"command": ["cuffdiff"], "version_command": ["cuffdiff", "--version"], "expected_version": "2.1.1"},
+    "trinity": {"command": ["Trinity"], "version_command": ["Trinity", "--version", "--no_version_check"], "version_exit_codes": [0, 1], "expected_version": "2.1.1"},
+    "prinseq": {"command": ["prinseq-lite.pl"], "version_command": ["prinseq-lite.pl", "-version"], "expected_version": "0.20.4"},
+    "rsem_extract": {"command": ["extract-transcript-to-gene-map-from-trinity"], "version_command": ["rsem-calculate-expression", "--version"], "expected_version": null},
+    "rsem_prepare": {"command": ["rsem-prepare-reference"], "version_command": ["rsem-calculate-expression", "--version"], "expected_version": null},
+    "rsem_quant": {"command": ["rsem-calculate-expression"], "version_command": ["rsem-calculate-expression", "--version"], "expected_version": null}
+  }
+}

@@ -1,0 +1,10 @@
+# PORTABLE RECONSTRUCTION CANDIDATE, NOT A HISTORICAL VERSION LOCK.
+# The paper does not report edgeR's version. Resolve, inspect and archive the
+# actual installed package list; pass --expected-version for subsequent runs.
+name: sheep-reproductive-edger-reconstruction
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base>=4.0
+  - bioconductor-edger

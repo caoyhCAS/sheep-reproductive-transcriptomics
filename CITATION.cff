@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: 'This repository is a method reconstruction, not author-original code. Cite the original study and the specific reconstruction commit.'
+title: 'Sheep reproductive transcriptomics: method reconstruction'
+type: software
+version: 0.1.0
+date-released: '2026-09-24'
+license: MIT
+authors:
+  - name: 'sheep-reproductive-transcriptomics contributors'
+preferred-citation:
+  type: article
+  title: 'Comparative mRNA and miRNA expression in European mouflon (Ovis musimon) and sheep (Ovis aries) provides novel insights into the genetic mechanisms for female reproductive success'
+  authors:
+    - family-names: Yang
+      given-names: Ji
+    - family-names: Li
+      given-names: Xin
+    - family-names: Cao
+      given-names: Yin-Hong
+    - family-names: Pokharel
+      given-names: Kisun
+    - family-names: Hu
+      given-names: Xiao-Ju
+    - family-names: Chen
+      given-names: Ze-Hui
+    - family-names: Xu
+      given-names: Song-Song
+    - family-names: Peippo
+      given-names: Jaana
+    - family-names: Honkatukia
+      given-names: Mervi
+    - family-names: Kantanen
+      given-names: Juha
+    - family-names: Li
+      given-names: Meng-Hua
+  journal: Heredity
+  volume: 122
+  issue: 2
+  start: 172
+  end: 186
+  year: 2019
+  doi: 10.1038/s41437-018-0090-1

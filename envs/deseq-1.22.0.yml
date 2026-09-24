@@ -1,0 +1,10 @@
+# HISTORICAL CANDIDATE ONLY: not solved or installed during reconstruction.
+# Availability of these archived builds and dependencies is platform-dependent.
+# An archived R/Bioconductor environment may be needed if this cannot resolve.
+name: sheep-reproductive-deseq-1-22-0
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base=3.2
+  - bioconductor-deseq=1.22.0
